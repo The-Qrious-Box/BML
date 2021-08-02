@@ -1,0 +1,85 @@
+body{
+	margin:0px;
+	padding:0px;
+	width:100%;
+	height:auto;
+	background-color:#141414;
+}
+
+.page .anim{
+	opacity:0;
+}
+
+.page{
+	position:relative;
+	width:1050px;
+	margin-left:auto;
+	margin-right:auto;
+	height:auto;
+	margin-top:190px;
+	margin-bottom:190px;
+}
+
+.page .title {
+	position:relative;
+	margin-left:auto;
+	margin-right:auto;
+	width: 700px;
+	height: 80px;
+	font-family: Poppins;
+	font-size: 60px;
+	font-weight: 600;
+	font-style: normal;
+	font-stretch: normal;
+	line-height: 1.33;
+	letter-spacing: normal;
+	color: #ffffff;
+	text-align:center;
+}
+
+.page .title .dot {
+	position:relative;
+	display:inline-block;
+	color:#ff6133;
+}
+
+.page .description{
+	font-family: Poppins;
+	font-size: 20px;
+	font-weight: normal;
+	font-style: normal;
+	font-stretch: normal;
+	line-height: 1.6;
+	letter-spacing: normal;
+	text-align: center;
+	color: #ffffff;
+	margin-top:30px;
+	margin-bottom:100px;
+}
+
+@media only screen and (max-width: 1100px) {
+	.page{
+		width:725px;
+	}
+}
+
+
+@media only screen and (max-width: 750px) {
+	.page{
+		width:300px;
+		margin-top:80px;
+		margin-bottom:80px;
+	}
+
+	.page .title{
+		width:300px;
+		font-size:30px;
+		height:60px;
+	}
+
+	.page .description{
+		font-size:14px;
+		margin-top: 0px;
+	    margin-bottom: 70px;
+	}
+}

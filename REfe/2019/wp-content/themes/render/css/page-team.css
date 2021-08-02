@@ -1,0 +1,94 @@
+.page-team .title-line{
+	position:absolute;
+	top: 70px;
+    left: 15px;
+	width:192px;
+	height:4px;
+	background-color: #ff6133;
+}
+
+.team-block{
+	position:relative;
+	width:330px;
+	height:330px;
+	background-size:cover;
+	background-position:center center;
+	margin-bottom:30px;
+	background-color:#3e3d41;
+	opacity:0;
+	padding:30px;
+	box-sizing: border-box;
+}
+
+.team-block .team-name{
+	position:relative;
+	font-family: Poppins;
+  	font-size: 30px;
+  	font-weight: 600;
+  	font-style: normal;
+  	font-stretch: normal;
+  	line-height: 35px;
+  	letter-spacing: normal;
+  	text-align: left;
+  	color: #ffffff;
+}
+
+.team-block .team-name .dot{
+  	color: #ff6133;
+}
+
+.team-block .team-title{
+	position:relative;
+	font-family: Poppins;
+  	font-size: 20px;
+  	font-weight: 400;
+  	font-style: normal;
+  	font-stretch: normal;
+  	line-height: normal;
+  	letter-spacing: normal;
+  	text-align: left;
+  	color: #ffffff;    
+  	margin-top: 10px;
+}
+
+.team-block .team-image{
+	position:absolute;
+	left:30px;
+	bottom:30px;
+	width:137px;
+	height:137px;
+	border-radius:50%;
+	overflow:hidden;
+}
+
+.team-block .team-image img{
+	position:relative;
+	width:100%;
+	height:100%;
+}
+
+@media only screen and (max-width: 1100px) {
+	.team-container{
+	    margin-left: 17px;
+	}
+}
+
+@media only screen and (max-width: 750px) {	
+	.page-team .team-block{
+		width:300px;
+	}
+
+	.team-container{
+	    margin-left: 0px;
+	}
+
+	.team-block .team-name{
+		font-size:24px;
+		line-height:30px;
+	}
+
+	.team-block .team-title{
+		margin-top:0px;
+		font-size:16px;
+	}
+}
