@@ -79,7 +79,7 @@ body{
 .section .title .dot, .page .title .dot {
 	position:relative;
 	display:inline-block;
-	color:#ff6133;
+	color:#FC0200;
 }
 
 #pagination{
@@ -182,7 +182,7 @@ body{
 	left:50%;
 	width: 60px;
 	height: 60px;
-	background-color: #ff6133;
+	background-color: #FC0200;
 	transform-origin: 0% 0%;
 	transform:translate3d(0,0,0);
 }
@@ -250,7 +250,7 @@ body{
 	font-stretch: normal;
 	line-height: 1.29;
 	letter-spacing: normal;
-	color: #ff6133;
+	color: #FC0200;
 	padding-left:23px;
 	padding-right:23px;
 	padding-top:11px;
@@ -314,19 +314,19 @@ body{
 } 
 
 #services .icon .icon-editing{
-	background-image:url("../assets/homepage/services/icons/icon-editing.svg");
+	background-image:url("../assets/homepage/services/icons/icon-sliders.svg");
 }
 
 #services .icon .icon-youtube{
-	background-image:url("../assets/homepage/services/icons/icon-youtube.svg");
+	background-image:url("../assets/homepage/services/icons/icon-activity.svg");
 }
 
 #services .icon .icon-motion{
-	background-image:url("../assets/homepage/services/icons/icon-motion.svg");
+	background-image:url("../assets/homepage/services/icons/icon-cpu.svg");
 }
 
 #services .icon .icon-design{
-	background-image:url("../assets/homepage/services/icons/icon-design.svg");
+	background-image:url("../assets/homepage/services/icons/icon-database.svg");
 }
 
 #services .icon .icon-label{
@@ -375,7 +375,7 @@ body{
 	font-stretch: normal;
 	line-height: 1.29;
 	letter-spacing: normal;
-	color: #ff6133;
+	color: #FC0200;
 	padding-left:23px;
 	padding-right:23px;
 	padding-top:11px;
@@ -414,6 +414,173 @@ body{
 	margin-left: -1em;
 	color:#ff6133;
 }
+
+
+
+
+
+/* ---------- Variants ---------- */
+#variants{
+
+}
+
+#variants .content{
+	position:absolute;
+	top:50%;
+	left:50%;
+	width:915px;
+	height:535px;
+	margin-left:-457.5px;
+	margin-top:-267.5px;
+	text-align:center;
+}
+
+#variants .title-svg{
+	position:absolute;
+	top: -5px;
+	left: 177px;
+	width:204px;
+	height:82px;
+}
+
+#variants .title-rect{
+	stroke-dasharray: 557;
+	stroke-dashoffset: 557;
+}
+
+#variants .copy{
+	height:102px;
+}
+
+#variants .icons{
+	position:relative;
+	width:1080px;
+	margin-left:-82.5px;
+	height:95px;
+	margin-top:90px;
+}
+
+#variants .icon{
+	position:relative;
+	float:left;
+	width:25%;
+	height:100%;
+}
+
+#variants .icon .icon-svg{
+	position:relative;
+	width:100%;
+	height:60px;
+	background-position:center center;
+	background-repeat:no-repeat;
+} 
+
+#variants .icon .icon-editing{
+	background-image:url("../assets/homepage/services/icons/icon-sliders.svg");
+}
+
+#variants .icon .icon-youtube{
+	background-image:url("../assets/homepage/services/icons/icon-activity.svg");
+}
+
+#variants .icon .icon-motion{
+	background-image:url("../assets/homepage/services/icons/icon-cpu.svg");
+}
+
+#variants .icon .icon-design{
+	background-image:url("../assets/homepage/services/icons/icon-database.svg");
+}
+
+#variants .icon .icon-label{
+	position:absolute;
+	top:70px;
+	left:0px;
+	width:100%;
+	text-align:center;
+	font-family: Poppins;
+	font-size: 16px;
+	font-weight: 600;
+	font-style: normal;
+	font-stretch: normal;
+	line-height: normal;
+	letter-spacing: normal;
+	color: #ffffff;
+}
+
+#variants .watch-button {
+	position:absolute;
+	left:50%;
+	top:450px;
+	display:inline-block;
+	margin-top:80px;
+	margin-left:auto;
+	margin-right:auto;
+	width:177px;
+	margin-left:-87.5px;
+	height:40px;
+}
+
+#variants .watch-button rect{
+	stroke-dasharray: 452;
+	stroke-dashoffset: 452;
+}
+
+
+#variants .watch-button .button-label{
+	position:absolute;
+	top:0px;
+	left:0px;
+	font-family: Poppins;
+	font-size: 14px;
+	font-weight: 600;
+	font-style: normal;
+	font-stretch: normal;
+	line-height: 1.29;
+	letter-spacing: normal;
+	color: #ff6133;
+	padding-left:23px;
+	padding-right:23px;
+	padding-top:11px;
+	padding-bottom:10px;
+}
+
+#variants .sub-variants{
+	position:absolute;
+	top:110px;
+	left:50%;
+	width:190px;
+	box-sizing: border-box;
+	padding-left:13px;
+	margin:0;
+	transform:translate(-50%,0px);
+	pointer-events: none;
+}
+
+#variants .sub-variants li{
+	font-family: Poppins;
+	font-size: 14px;
+	font-weight: normal;
+	font-style: normal;
+	font-stretch: normal;
+	line-height: 2;
+	letter-spacing: normal;
+	color: #ffffff;
+	list-style: none;
+	text-align:left;
+	opacity:0;
+}
+
+#variants .sub-variants li::before{
+	content:"\25AA";
+	display: inline-block; width: 1em;
+	margin-left: -1em;
+	color:#ff6133;
+}
+
+
+
+
+
 
 /* ---------- CLIENTS ---------- */
 #clients{
