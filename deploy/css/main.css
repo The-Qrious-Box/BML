@@ -41,6 +41,12 @@ http://miradontsoa.com
 	font-family :
 	-  sans-serif Segoe UI / Roboto / Open sans / Helvetica with fallback to system-ui fonts
 */
+
+*{
+  background-color: black;
+}
+
+
 .text-black {
   color: #1d1d1d !important; }
 
@@ -388,10 +394,16 @@ p {
 .btn-circicon.btn-primary {
   color: #ffffff; }
   .btn-circicon.btn-primary .icon {
-    background: #ffffff;
-    color: #037FD5; }
+    background: #ff0000;
+    color: #f7f7f7; }
+    .btn-circicon.btn-primary .icon {
+    background: #ff0000;
+    color: #f7f7f7; }
+
   .btn-circicon.btn-primary:hover .icon {
-    background: rgba(255, 255, 255, 0.2); }
+    background: rgb(255, 255, 255); }
+  .btn-circicon.btn-primary .icon .ion {
+    background-color: red; }
 
 .btn-circicon.btn-secondary {
   color: #ffffff; }
