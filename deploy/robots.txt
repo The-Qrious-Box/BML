@@ -1,5 +1,0 @@
-User-agent: *
-Disallow: /2019/wp-admin/
-Allow: /2019/wp-admin/admin-ajax.php
-
-Sitemap: https://www.render.gg/wp-sitemap.xml
