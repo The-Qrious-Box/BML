@@ -43,7 +43,7 @@ http://miradontsoa.com
 */
 
 *{
-  background-color: black;
+  /* background-color: black; */
 }
 
 
@@ -2446,7 +2446,7 @@ textarea {
       width: auto; }
       @media (min-width: 768px) {
         .page-header-alpha .navbar-brand .logo img {
-          height: 48px; } }
+          height: 80px; } }
     .page-header-alpha .navbar-brand .text {
       display: flex;
       justify-content: center;
@@ -2456,9 +2456,11 @@ textarea {
       margin-left: 8px;
       margin-right: 8px; }
       .page-header-alpha .navbar-brand .text .line {
+        font-size: 25px;
         display: block; }
         .page-header-alpha .navbar-brand .text .line.sub {
-          font-size: 0.75rem;
+          font-size: 25px;
+          /* font-size: 0.75rem; */
           opacity: 1; }
   .page-header-alpha .all-menu-wrapper {
     justify-content: flex-end;
@@ -3478,6 +3480,7 @@ textarea {
   .section.no-slide-arrows .fp-controlArrow {
     visibility: hidden; }
   .section .section-wrapper {
+    /* background-color: #000; */
     width: 100%;
     max-width: 800px;
     padding-left: 16px;
@@ -5154,13 +5157,18 @@ textarea {
       font-size: 4.5rem; } }
 
 .display-4 {
-  font-size: 3rem;
+  /* font-size: 3rem; */
+  font-size: 50px;
   font-weight: 300;
   line-height: 1.1;
   font-weight: bold; }
   @media (min-width: 1200px) {
     .display-4 {
-      font-size: 3.5rem; } }
+      font-size: 50px; } }
+
+.title-desc .display-4 {
+  font-size: 50px;
+}
 
 .display-5 {
   font-size: 1.5rem;
