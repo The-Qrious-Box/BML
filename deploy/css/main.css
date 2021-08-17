@@ -345,7 +345,7 @@ p {
     transition: 0.2s; }
     .btn-circicon > .icon:before {
       content: "";
-      background: #037FD5;
+      background: red;
       position: absolute;
       top: 0;
       left: 0;
@@ -353,9 +353,9 @@ p {
       right: 0;
       opacity: 0;
       border-radius: 100px;
-      -webkit-transform: scale(0.5);
-              transform: scale(0.5);
-      transition: 0.2s; }
+      /* -webkit-transform: scale(0.5);
+              transform: scale(0.5); */
+      transition: 0.15s;      }
     .btn-circicon > .icon .fa,
     .btn-circicon > .icon .ion,
     .btn-circicon > .icon .icon {
@@ -401,7 +401,10 @@ p {
     color: #f7f7f7; }
 
   .btn-circicon.btn-primary:hover .icon {
-    background: rgb(255, 255, 255); }
+     }
+
+     /* background: rgb(255, 255, 255); */
+
   .btn-circicon.btn-primary .icon .ion {
     background-color: red; }
 
@@ -3480,7 +3483,6 @@ textarea {
   .section.no-slide-arrows .fp-controlArrow {
     visibility: hidden; }
   .section .section-wrapper {
-    /* background-color: #000; */
     width: 100%;
     max-width: 800px;
     padding-left: 16px;
@@ -4261,6 +4263,9 @@ textarea {
     position: relative; }
   .slide-wrapper .illustr {
     position: relative; }
+    .slide-wrapper .illustr h2 {
+      font-weight: bold;
+    }
     .slide-wrapper .illustr .img {
       width: 100%;
       height: 300px; }
@@ -4269,10 +4274,13 @@ textarea {
           height: 50vh; } }
       @media (min-width: 960px) and (orientation: landscape) {
         .slide-wrapper .illustr .img {
-          width: 400px;
+          width: 700px;
+          margin-top: 20px;
+          /* width: 400px;
           width: 40vw;
           height: 400px;
-          height: 66vh; } }
+          height: 66vh;  */
+        } }
   .slide-wrapper .legend {
     padding: 16px;
     padding-top: 32px;
@@ -5241,3 +5249,7 @@ p {
 /* ipad and tablet */
 /* ipad and tablet */
 /* phone */
+
+
+
+
