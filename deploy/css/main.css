@@ -44,6 +44,7 @@ http://miradontsoa.com
 
 *{
   /* background-color: black; */
+  font-family: 'Poppins', sans-serif;
 }
 
 
@@ -5251,14 +5252,16 @@ p {
 /* phone */
 
 
-.product-section #i-tap-live, #i-tap-ott, #home-decoration {
-  margin-top: 40px;
+.product-section #i-tap-live, #i-tap-ott {
+  margin-top: 50px;
 }
 
 .product-section .p-text{
   font-size: 15px;
   font-family: 'Poppins', sans-serif;
   text-align: left;
+  font-weight: bold;
+  margin-top: 20px;
 }
 
 .product-section #i-tap-advert-desc {
@@ -5269,11 +5272,15 @@ p {
 .product-section #i-tap-advert-desc, #i-tap-streamshop-desc, #i-tap-influence-desc, #i-tap-ott-desc, #i-tap-live-desc, #i-tap-home-desc {
   font-size: 13px;
   font-family: 'Poppins', sans-serif;
-  font-weight: 900;
+  font-weight: 900; 
 }
 
 .product-section #i-tap-influence-desc {
   margin-bottom: 40px;
+}
+
+.product-section #i-tap-live {
+  margin-right: 422px;
 }
 
 
