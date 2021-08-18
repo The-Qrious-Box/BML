@@ -4535,7 +4535,7 @@ textarea {
 .center-vh {
   /* width needed for Firefox */
   display: flex;
-  align-items: center;
+  /* align-items: center; */
   justify-content: center; }
 
 .dir-col {
@@ -5251,14 +5251,29 @@ p {
 /* phone */
 
 
-.product-section #i-tap-live {
+.product-section #i-tap-live, #i-tap-ott, #home-decoration {
   margin-top: 40px;
 }
 
-.product-section p{
-  font-family: 'Ionicons';
+.product-section .p-text{
   font-size: 15px;
-  justify-content: left;
+  font-family: 'Poppins', sans-serif;
+  text-align: left;
+}
+
+.product-section #i-tap-advert-desc {
+  /* margin-top: 50px; */
+  margin-bottom: 44px;
+}
+
+.product-section #i-tap-advert-desc, #i-tap-streamshop-desc, #i-tap-influence-desc, #i-tap-ott-desc, #i-tap-live-desc, #i-tap-home-desc {
+  font-size: 13px;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 900;
+}
+
+.product-section #i-tap-influence-desc {
+  margin-bottom: 40px;
 }
 
 
