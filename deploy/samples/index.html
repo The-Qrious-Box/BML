@@ -15,12 +15,10 @@ http://miradontsoa.com
 
   <!-- Meta -->
   <!-- Page Description Here -->
-  <meta name="description"
-    content="A beautiful and creative portfolio template. It is mobile friend (responsive) and comes with smooth animations">
+  <meta name="description" content="A beautiful and creative portfolio template. It is mobile friend (responsive) and comes with smooth animations">
 
   <!-- Disable screen scaling-->
-  <meta name="viewport"
-    content="width=device-width, user-scalable=no, initial-scale=1, maximum-scale=1, user-scalable=0">
+  <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1, maximum-scale=1, user-scalable=0">
 
   <!-- Twitter Meta -->
   <meta name="twitter:site" content="@miradontsoa">
@@ -61,12 +59,9 @@ http://miradontsoa.com
   <link rel="stylesheet" href="css/main.css">
 
   <!-- add alt layout here -->
-  <!--<link rel="stylesheet" href="./css/style-default.css">-->
+  <link rel="stylesheet" href="css/style-default.css">
 
   <script src="js/vendor/modernizr-2.7.1.min.js"></script>
-  <style>
-    @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
-   </style>
 </head>
 
 <body id="menu" class="body-page">
@@ -101,11 +96,11 @@ http://miradontsoa.com
     <!-- Begin of logo/brand -->
     <a class="navbar-brand" href="index.html#">
       <span class="logo">
-        <img class="light-logo" src="../Logo.jpg" alt="Logo">
+        <img class="light-logo" src="img/logo.png" alt="Logo">
       </span>
       <span class="text">
-        <span class="line">bodhi</span>
-        <span class="line sub">media labs</span>
+        <span class="line">Casely</span>
+        <span class="line sub">Portfolio Template</span>
       </span>
     </a>
     <!-- End of logo/brand -->
@@ -135,16 +130,13 @@ http://miradontsoa.com
             </a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="gallery.html">Technology</a>
+            <a class="nav-link" href="gallery.html">Gallery</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="item.html">Products</a>
+            <a class="nav-link" href="item.html">Item</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="demo.html">Carrers</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="demo.html">About Us</a>
+            <a class="nav-link" href="demo.html">Demo</a>
           </li>
         </ul>
       </nav>
@@ -157,12 +149,14 @@ http://miradontsoa.com
   <!-- END OF site header Menu-->
 
   <!-- BEGIN OF page cover -->
-  <div class="hh-cover page-cover">
+  <div class="page-cover" id="parallax-cover">
     <!-- Cover Background -->
-    <div class="cover-bg bg-img " data-image-src=""></div>
+    <div data-depth="0.2" class="cover-bg bg-img" data-image-src="img/bg-default.jpg"></div>
 
-    <!-- Particles as background - uncomment below to use particles/snow -->
-    <div id="particles-js" class="cover-bg pos-abs full-size bg-color" data-bgcolor="rgba(2, 3, 10, 0.7)"></div>
+    <!-- Transluscent mask as filter -->
+    <div class="cover-bg-mask bg-color" data-bgcolor="rgba(2, 3, 10, 0.7)"></div>
+
+
   </div>
   <!--END OF page cover -->
 
@@ -171,7 +165,7 @@ http://miradontsoa.com
 
     <!-- Begin of home section -->
     <div class="section section-home fullscreen-md fp-auto-height-responsive main-home section-centered"
-      data-section="home">
+    data-section="home">
       <!-- Begin of section wrapper -->
       <div class="section-wrapper fullwidth with-margin v-center">
         <!-- content -->
@@ -180,13 +174,15 @@ http://miradontsoa.com
             <div class="col-12 col-lg-6 text-left">
               <!-- title and description -->
               <div class="title-desc">
-                <h6 class="display-4 display-title home-title decor anim-1">Bodhi Media Labs</h6>
-                <!-- <h4 class="anim-2">Hello, we build things</h4> -->
+                <h1 class="display-4 display-title home-title decor anim-1">Casely Brand</h1>
+                <h4 class="anim-2">Hello, we build things</h4>
+                <p class="anim-2">This is a Bootstrap 4 based template, helping you to build modern
+                  and beautiful websites</p>
               </div>
 
               <!-- Action button -->
               <div class="btns-action anim-3">
-                <a class="btn btn-circicon btn-primary" href="index-particle.html#about">
+                <a class="btn btn-circicon btn-primary" href="index.html#about">
                   <span class="icon">
                     <i class="ion ion-chevron-down"></i>
                   </span>
@@ -204,7 +200,7 @@ http://miradontsoa.com
           </div>
           <!-- Action button -->
           <div class="btns-action anim-3 text-right">
-            <a class="btn btn-outline-white btn-round" href="index-particle.html#contact">
+            <a class="btn btn-outline-white btn-round" href="index.html#contact">
               Contact
             </a>
           </div>
@@ -236,18 +232,20 @@ http://miradontsoa.com
               <div class="title-desc">
                 <h1 class="display-4 display-title anim-1">About</h1>
                 <h4 class="anim-2">We build things</h4>
-                <p class="anim-2">Explore a world of 360 degree services in interactive videos and video e-commerce.</p>
-                <p class="anim-2">Concept utilizing | Storyboarding | Content Production | Post Production & Graphics |
-                  Hosting & Distribution | Analytics</p>
+                <p class="anim-2">This describes what we do and what is our mission. At right you can
+                  see the awesome people behind. Lorem ipsum magicum dolor sit amet,
+                  consectetur adipiscing elit. Maecenas a sem ultrices neque vehicula
+                  fermentum a sit amet nulla.
+                </p>
               </div>
 
               <!-- Action button -->
               <div class="btns-action anim-3">
-                <a class="btn btn-circicon btn-primary" href="index-particle.html#products">
+                <a class="btn btn-circicon btn-primary" href="index.html#projects-featured">
                   <span class="icon">
-                    <i class="ion ion-chevron-down" id="icon-1"></i>
+                    <i class="ion ion-chevron-down"></i>
                   </span>
-                  <span class="text">Products</span>
+                  <span class="text">Selected Works</span>
                 </a>
               </div>
             </div>
@@ -255,13 +253,15 @@ http://miradontsoa.com
           </div>
         </div>
 
-        <!-- begin of slider carousel-swiper-alpha -->
-        <!-- <div class="section-aside aside-bottom anim small-relative">
+        <!-- aside -->
+        <div class="section-aside aside-bottom anim small-relative">
           <div class="a-wrapper anim-4">
-            
+            <!-- begin of slider carousel-swiper-alpha -->
             <div class="slider-wrapper carousel-swiper-alpha carousel-swiper-alpha-demo">
+              <!-- slider -->
               <div class="slider-container swiper-container">
                 <ul class="item-list swiper-wrapper">
+                  <!-- item -->
                   <li class="slide-item swiper-slide">
                     <div class="item-wrapper">
                       <div class="illustr">
@@ -271,16 +271,17 @@ http://miradontsoa.com
                         <h3 class="title">Geraldine Cyclone</h3>
                         <h4>Senior Designer</h4>
                         <div class="icons">
-                          <a class="icon-btn" href="index-particle.html#">
+                          <a class="icon-btn" href="index.html#">
                             <i class="icon fa fa-instagram"></i>
                           </a>
-                          <a class="icon-btn" href="index-particle.html#">
+                          <a class="icon-btn" href="index.html#">
                             <i class="icon fa fa-twitter"></i>
                           </a>
                         </div>
                       </div>
                     </div>
                   </li>
+                  <!-- item -->
                   <li class="slide-item swiper-slide">
                     <div class="item-wrapper">
                       <div class="illustr">
@@ -290,16 +291,17 @@ http://miradontsoa.com
                         <h3 class="title">Jerome Levier</h3>
                         <h4>Developer</h4>
                         <div class="icons">
-                          <a class="icon-btn" href="index-particle.html#">
+                          <a class="icon-btn" href="index.html#">
                             <i class="icon fa fa-instagram"></i>
                           </a>
-                          <a class="icon-btn" href="index-particle.html#">
+                          <a class="icon-btn" href="index.html#">
                             <i class="icon fa fa-twitter"></i>
                           </a>
                         </div>
                       </div>
                     </div>
                   </li>
+                  <!-- item -->
                   <li class="slide-item swiper-slide">
                     <div class="item-wrapper">
                       <div class="illustr">
@@ -309,16 +311,17 @@ http://miradontsoa.com
                         <h3 class="title">Nicole Florence</h3>
                         <h4>Architect</h4>
                         <div class="icons">
-                          <a class="icon-btn" href="index-particle.html#">
+                          <a class="icon-btn" href="index.html#">
                             <i class="icon fa fa-instagram"></i>
                           </a>
-                          <a class="icon-btn" href="index-particle.html#">
+                          <a class="icon-btn" href="index.html#">
                             <i class="icon fa fa-twitter"></i>
                           </a>
                         </div>
                       </div>
                     </div>
                   </li>
+                  <!-- item -->
                   <li class="slide-item swiper-slide">
                     <div class="item-wrapper">
                       <div class="illustr">
@@ -328,10 +331,10 @@ http://miradontsoa.com
                         <h3 class="title">Tintin Dupon</h3>
                         <h4>Photograph</h4>
                         <div class="icons">
-                          <a class="icon-btn" href="index-particle.html#">
+                          <a class="icon-btn" href="index.html#">
                             <i class="icon fa fa-instagram"></i>
                           </a>
-                          <a class="icon-btn" href="index-particle.html#">
+                          <a class="icon-btn" href="index.html#">
                             <i class="icon fa fa-twitter"></i>
                           </a>
                         </div>
@@ -340,12 +343,14 @@ http://miradontsoa.com
                   </li>
                 </ul>
               </div>
+              <!-- pagination -->
               <div class="items-pagination bar"></div>
-            </div>
-          </div>
-        </div> -->
 
-        <!-- END of slider carousel-swiper-alpha -->
+            </div>
+            <!-- end of slider carousel-swiper-alpha -->
+
+          </div>
+        </div>
 
 
         <!-- Arrows scroll down/up -->
@@ -360,209 +365,111 @@ http://miradontsoa.com
     </div>
     <!-- End of description section -->
 
-    <!-- Begin of list products section -->
-    <div class="section section-grid fp-auto-height-responsive section-centered" data-section="products">
-      <div class="product-section">
-        <!-- Begin of section wrapper -->
-        <div class="section-wrapper fullwidth with-margin">
-
-
-          <div class="section-content mb-3">
-            <div class="row">
-              <div class="col-12 col-lg-6 text-left">
-                <!-- title and description -->
-                <div class="title-desc">
-                  <h2 class="display-4 display-title anim-1">Products</h2>
-                  <p class="anim-2">List of products. Lorem ipsum magicum dolor sit amet, consectetur
-                    adipiscing elit. Maecenas a sem ultrices neque vehicula fermentum
-                    a sit amet nulla.
-                  </p>
-                </div>
+    <!-- Begin of slider section -->
+    <div class="section section-twoside project-slider fp-auto-height-responsive " data-section="projects-featured">
+      <div class="slide">
+        <div class="slide-wrapper">
+          <div class="item-wrapper">
+            <div class="illustr">
+              <img class="img img-block" src="img/items/img-sample1.jpg" alt="Image">
+            </div>
+            <div class="legend">
+              <a href="item.html#project_url">
+                <h3>Paper Design</h3>
+                <h4>Art / Print</h4>
+                <p>Lorem ipsum magicum dolor sit amet, consectetur adipiscing elit.
+                  Maecenas a sem ultrices neque vehicula fermentum a sit amet nulla.</p>
+              </a>
+              <a class="btn btn-transp-arrow btn-primary" href="item.html#project_url">
+                <span class="text">Details</span>
+                <span class="icon arrow-right"></span>
+              </a>
+              <div class="icons">
+                <a class="icon-btn" href="index.html#">
+                  <i class="icon fa fa-instagram"></i>
+                </a>
+                <a class="icon-btn" href="index.html#">
+                  <i class="icon fa fa-twitter"></i>
+                </a>
               </div>
             </div>
           </div>
-
-
-          <!-- Begin of item list -->
-          <div class="section-content row justify-content-between" id="i-tap-advert">
-            <!-- item  -->
-            <div class="col-12 col-sm-6 col-lg-4 center-vh">
-              <div class="section-content anim translateUp">
-                <div class="images text-center">
-                  <div class="img-frame-normal">
-                    <div class="img-1 shadow">
-                      <a href="item.html#project_url">
-                        <img class="img" src="https://via.placeholder.com/550x300" alt="Image">
-                      </a>
-                      <span class="price bottom">
-                        <!-- $39.99 -->
-                      </span>
-                    </div>
-                    <div class="legend text-center decor">
-                      <h3 class="decor">
-                        <strong id="i-tap-advert-desc">iTap Advert</strong>
-                      </h3>
-                      <!-- <p >For Video Hotspots & Branched Video.</p> -->
-                      <p class="p-text">Transform your videos into shoppable content and retain engagement on your
-                        website !</p>
-                      <p class="p-text">Experience strory telling with our interactive branched videos or engage with
-                        our highspot driven features. Cross promote on social media and get traction on your website.
-                      </p>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <!-- item  -->
-            <div class="col-12 col-sm-6 col-lg-4 center-vh" id="i-tap-streamshop">
-              <div class="section-content anim">
-                <div class="images text-center">
-                  <div class="img-frame-normal">
-                    <div class="img-1 shadow">
-                      <a href="item.html#project_url">
-                        <img class="img" src="https://via.placeholder.com/550x300" alt="Image">
-                      </a>
-                      <span class="price bottom">
-                        <!-- $39.99 -->
-                      </span>
-                    </div>
-                    <div class="legend text-center decor">
-                      <h3 class="display-normal">
-                        <strong id="i-tap-streamshop-desc">iTap Streamshop </strong>
-                      </h3>
-                      <!-- <p >For cloud based loopable videos with
-                        an Interactive Shoppable sidebar.</p> -->
-                      <p class="p-text">An alternative to faceless commercial experience the benefits of shopping
-                        assistant.</p>
-                      <p class="p-text">While you focus on products, lets make that interactive making this into a see
-                        now.. buy now.. tap now commerce with a interactive side bar helping customers to buy instantly.
-                      </p>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <!-- item  -->
-            <div class="col-12 col-sm-6 col-lg-4 center-vh" id="i-tap-influence">
-              <div class="section-content anim translateDown">
-                <div class="images text-center">
-                  <div class="img-frame-normal">
-                    <div class="img-1 shadow">
-                      <a href="item.html#project_url">
-                        <img class="img" src="https://via.placeholder.com/550x300" alt="Image">
-                      </a>
-                      <span class="price bottom">
-                        <!-- $39.99 -->
-                      </span>
-                    </div>
-                    <div class="legend text-center decor">
-                      <h3 class="display-normal">
-                        <strong id="i-tap-influence-desc">iTap Influence</strong>
-                      </h3>
-                      <!-- <p >For tunrning Influencer
-                        driven content shoppable.</p> -->
-                      <p class="p-text">Monetize every frame making influencer driven content shoppable and have them
-                        reposted on your handles.</p>
-                      <p class="p-text"> Pick up videos from FB, IG, YT to make it engaging and shoppable</p>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <!-- item  -->
-            <div class="col-12 col-sm-6 col-lg-4 center-vh" id="i-tap-ott">
-              <div class="section-content anim translateUp">
-                <div class="images text-center">
-                  <div class="img-frame-normal">
-                    <div class="img-1 shadow">
-                      <a href="item.html#project_url">
-                        <img class="img" src="https://via.placeholder.com/550x300" alt="Image">
-                      </a>
-                      <span class="price bottom">
-                        <!-- $39.99 -->
-                      </span>
-                    </div>
-                    <div class="legend text-center decor">
-                      <h3 class="display-normal">
-                        <strong id="i-tap-ott-desc">iTap OTT</strong>
-                      </h3>
-                      <!-- <p>Specialized interactive OTT
-                        content creation.</p> -->
-                      <p class="p-text">Player licensing to OTT apps makes content shoppable and interactive. </p>
-                      <p class="p-text">So whether you want to buy what your favorite actor is wearing or let the viewer
-                        do the storytelling for films. We've got something in store for you.</p>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <!-- item  -->
-            <div class="col-12 col-sm-6 col-lg-4 center-vh" id="i-tap-live">
-              <div class="section-content anim">
-                <div class="images text-center">
-                  <div class="img-frame-normal">
-                    <div class="img-1 shadow">
-                      <a href="item.html#project_url">
-                        <img class="img" src="https://via.placeholder.com/550x300" alt="Image">
-                      </a>
-                      <span class="price bottom">
-                        <!-- $39.99 -->
-                      </span>
-                    </div>
-                    <div class="legend text-center decor">
-                      <h3 class="display-normal">
-                        <strong id="i-tap-live-desc">iTap Live</strong>
-                      </h3>
-                      <!-- <p >Turn any Real Time Streaming
-                        event interactively shoppable.</p> -->
-                      <p class="p-text">Unleash the potential of live commercial transform your website live streams
-                        into shoppable experience.</p>
-                      <p class="p-text">Create virtual events and make them interactive with ML driven tech of BML.</p>
-                      <p class="p-text">Convert marketing events into live commerce by allowing the user to buy what he
-                        sees on screen</p>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <!-- item  -->
-            <!-- <div class="col-12 col-sm-6 col-lg-4 center-vh" id="home-decoration">
-              <div class="section-content anim translateDown">
-                <div class="images text-center">
-                  <div class="img-frame-normal">
-                    <div class="img-1 shadow">
-                      <a href="item.html#project_url">
-                        <img class="img" src="https://via.placeholder.com/550x300" alt="Image">
-                      </a>
-                      <span class="price bottom">
-                        
-                      </span>
-                    </div>
-                    <div class="legend text-center decor">
-                      <h3 class="display-normal">
-                        <strong>Home Decoration</strong>
-                      </h3>
-                      <p id="i-tap-home-desc">This is just a placeholder text.</p>
-                      <p class="p-text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Officia, modi? Enim
-                        necessitatibus rerum culpa ipsum itaque iste similique commodi! Sit nesciunt mollitia sequi quos
-                        numquam, suscipit saepe tempora est. Incidunt?</p>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div> -->
-          </div>
-          <!-- End of item list -->
         </div>
       </div>
-      <!-- End of section wrapper -->
+
+      <div class="slide">
+        <div class="slide-wrapper">
+          <div class="item-wrapper">
+            <div class="illustr">
+              <img class="img img-block" src="img/items/img-sample2.jpg" alt="Image">
+            </div>
+            <div class="legend">
+              <a href="item.html#project_url">
+                <h3>Fire Cloud</h3>
+                <h4>Photography / App</h4>
+                <p>Lorem ipsum magicum dolor sit amet, consectetur adipiscing elit.
+                  Maecenas a sem ultrices neque vehicula fermentum a sit amet nulla.</p>
+              </a>
+              <a class="btn btn-transp-arrow btn-primary" href="item.html#project_url">
+                <span class="text">Details</span>
+                <span class="icon arrow-right"></span>
+              </a>
+              <div class="icons">
+                <a class="icon-btn" href="index.html#">
+                  <i class="icon fa fa-instagram"></i>
+                </a>
+                <a class="icon-btn" href="index.html#">
+                  <i class="icon fa fa-twitter"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="slide">
+        <div class="slide-wrapper">
+          <div class="item-wrapper">
+            <div class="illustr">
+              <img class="img img-block" src="img/items/img-sample4.jpg" alt="Image">
+            </div>
+            <div class="legend">
+              <a href="item.html#project_url">
+                <h3>Summer Scape</h3>
+                <h4>Photography</h4>
+                <p>Lorem ipsum magicum dolor sit amet, consectetur adipiscing elit.
+                  Maecenas a sem ultrices neque vehicula fermentum a sit amet nulla.</p>
+              </a>
+              <a class="btn btn-transp-arrow btn-primary" href="item.html#project_url">
+                <span class="text">Details</span>
+                <span class="icon arrow-right"></span>
+              </a>
+              <div class="icons">
+                <a class="icon-btn" href="index.html#">
+                  <i class="icon fa fa-instagram"></i>
+                </a>
+                <a class="icon-btn" href="index.html#">
+                  <i class="icon fa fa-twitter"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+      <!-- Arrows scroll down/up -->
+      <footer class="section-footer scrolldown">
+        <a class="down">
+          <span class="icon"></span>
+          <span class="txt">All Works</span>
+        </a>
+      </footer>
+
     </div>
-    <!-- End of list products section -->
+    <!-- End of slider section -->
 
-
-
-
-
+    <!-- Begin of list projects section -->
     <div class="section section-list-feature fp-auto-height-responsive " data-section="projects">
 
       <!-- Begin of section wrapper -->
@@ -573,12 +480,11 @@ http://miradontsoa.com
             <div class="col-12 col-lg-6 text-left">
               <!-- title and description -->
               <div class="title-desc">
-                <h2 class="display-4 display-title anim-1">Industries We Work With</h2>
-                <p class="anim-2">Lorem ipsum dolor sit amet, consectetur adipiscing elit
+                <h2 class="display-4 display-title anim-1">Projects</h2>
+                <p class="anim-2">List of our projects. Lorem ipsum magicum dolor sit amet, consectetur
+                  adipiscing elit. Maecenas a sem ultrices neque vehicula fermentum
+                  a sit amet nulla.
                 </p>
-                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Maxime corporis ad incidunt dolorum totam,
-                  beatae et ipsam natus nemo tempore saepe voluptate eligendi maiores facilis commodi voluptatem
-                  repudiandae minus odio?</p>
               </div>
             </div>
           </div>
@@ -588,70 +494,13 @@ http://miradontsoa.com
             <!-- an item -->
             <div class="item media media-project">
               <div class="media-img">
-                <img class="" src="https://via.placeholder.com/700" alt="An image">
-              </div>
-              <div class="media-body">
-                <a href="item.html#project_url">
-                  <h4>Lorem</h4>
-                  <h3>Lorem Ipsium</h3>
-                  <!-- <p class="price">$0</p> -->
-                </a>
-              </div>
-              <div class="media-footer">
-                <a class="btn btn-transp-arrow btn-primary" href="item.html">
-                  <span class="text">Details</span>
-                  <span class="icon arrow-right"></span>
-                </a>
-              </div>
-            </div>
-            <!-- an item -->
-            <div class="item media media-project">
-              <div class="media-img">
-                <img class="" src="https://via.placeholder.com/700" alt="An image">
-              </div>
-              <div class="media-body">
-                <a href="item.html#project_url">
-                  <h4>Lorem</h4>
-                  <h3>Lorem Ipsium</h3>
-                  <!-- <p class="price">$0</p> -->
-                </a>
-              </div>
-              <div class="media-footer">
-                <a class="btn btn-transp-arrow btn-primary" href="item.html">
-                  <span class="text">Details</span>
-                  <span class="icon arrow-right"></span>
-                </a>
-              </div>
-            </div>
-            <!-- an item -->
-            <div class="item media media-project">
-              <div class="media-img">
-                <img class="" src="https://via.placeholder.com/700" alt="An image">
-              </div>
-              <div class="media-body">
-                <a href="item.html#project_url">
-                  <h4>Lorem</h4>
-                  <h3>Lorem Ipsium</h3>
-                  <!-- <p class="price">$0</p> -->
-                </a>
-              </div>
-              <div class="media-footer">
-                <a class="btn btn-transp-arrow btn-primary" href="item.html">
-                  <span class="text">Details</span>
-                  <span class="icon arrow-right"></span>
-                </a>
-              </div>
-            </div>
-            <!-- an item -->
-            <div class="item media media-project">
-              <div class="media-img">
-                <img class="" src="https://via.placeholder.com/700" alt="An image">
+                <img class="" src="img/items/img-sample9-square.jpg" alt="An image">
               </div>
               <div class="media-body">
                 <a href="item.html#project_url">
                   <h4>E-learning</h4>
                   <h3>Coding Course</h3>
-                  <!-- <p class="price">$0</p> -->
+                  <p class="price">$12</p>
                 </a>
               </div>
               <div class="media-footer">
@@ -664,13 +513,13 @@ http://miradontsoa.com
             <!-- an item -->
             <div class="item media media-project">
               <div class="media-img">
-                <img class="" src="https://via.placeholder.com/700" alt="An image">
+                <img class="" src="img/items/img-sample10-square.jpg" alt="An image">
               </div>
               <div class="media-body">
                 <a href="item.html#project_url">
-                  <h4>Lorem</h4>
-                  <h3>Lorem Ipsium</h3>
-                  <!-- <p class="price">$0</p> -->
+                  <h4>E-learning</h4>
+                  <h3>Coding Course</h3>
+                  <p class="price">$12</p>
                 </a>
               </div>
               <div class="media-footer">
@@ -683,13 +532,70 @@ http://miradontsoa.com
             <!-- an item -->
             <div class="item media media-project">
               <div class="media-img">
-                <img class="" src="https://via.placeholder.com/700" alt="An image">
+                <img class="" src="img/items/img-sample11-square.jpg" alt="An image">
               </div>
               <div class="media-body">
                 <a href="item.html#project_url">
-                  <h4>Lorem</h4>
-                  <h3>Lorem Ipsium</h3>
-                  <!-- <p class="price">$0</p> -->
+                  <h4>E-learning</h4>
+                  <h3>Coding Course</h3>
+                  <p class="price">$12</p>
+                </a>
+              </div>
+              <div class="media-footer">
+                <a class="btn btn-transp-arrow btn-primary" href="item.html">
+                  <span class="text">Details</span>
+                  <span class="icon arrow-right"></span>
+                </a>
+              </div>
+            </div>
+            <!-- an item -->
+            <div class="item media media-project">
+              <div class="media-img">
+                <img class="" src="img/items/img-sample12-square.jpg" alt="An image">
+              </div>
+              <div class="media-body">
+                <a href="item.html#project_url">
+                  <h4>E-learning</h4>
+                  <h3>Coding Course</h3>
+                  <p class="price">$12</p>
+                </a>
+              </div>
+              <div class="media-footer">
+                <a class="btn btn-transp-arrow btn-primary" href="item.html">
+                  <span class="text">Details</span>
+                  <span class="icon arrow-right"></span>
+                </a>
+              </div>
+            </div>
+            <!-- an item -->
+            <div class="item media media-project">
+              <div class="media-img">
+                <img class="" src="img/items/img-sample13-square.jpg" alt="An image">
+              </div>
+              <div class="media-body">
+                <a href="item.html#project_url">
+                  <h4>E-learning</h4>
+                  <h3>Coding Course</h3>
+                  <p class="price">$12</p>
+                </a>
+              </div>
+              <div class="media-footer">
+                <a class="btn btn-transp-arrow btn-primary" href="item.html">
+                  <span class="text">Details</span>
+                  <span class="icon arrow-right"></span>
+                </a>
+              </div>
+            </div>
+            <!-- an item -->
+            <div class="item media media-project">
+              <div class="media-img">
+                <img class="" src="img/items/img-sample14-square.jpg" alt="An image">
+              </div>
+              <div class="media-body">
+                <a href="item.html#project_url">
+                  <h4>E-learning</h4>
+                  <h3>Coding Course</h3>
+                  <p class="price">$12</p>
                 </a>
               </div>
               <div class="media-footer">
@@ -717,279 +623,6 @@ http://miradontsoa.com
       </div>
       <!-- End of section wrapper -->
     </div>
-    <!-- End of list projects section -->
-
-
-
-
-
-
-
-
-    <!-- Begin of slider section -->
-    <div class="section section-twoside project-slider fp-auto-height-responsive " data-section="projects-featured">
-      <div class="slide">
-        <div class="slide-wrapper">
-          <div class="item-wrapper">
-            <div class="illustr">
-              <center>
-                <h2>Why us ?</h2>
-              </center>
-              <center>Lorem ipsum dolor sit amet, consectetur adipiscing elit</center>
-              <img class="img img-block" src="img/items/img-sample1.jpg" alt="Image">
-            </div>
-            <!-- <div class="legend">
-              <a href="item.html#project_url">
-                <h3>Paper Design</h3>
-                <h4>Art / Print</h4>
-                <p>Lorem ipsum magicum dolor sit amet, consectetur adipiscing elit.
-                  Maecenas a sem ultrices neque vehicula fermentum a sit amet nulla.</p>
-              </a>
-              <a class="btn btn-transp-arrow btn-primary" href="item.html#project_url">
-                <span class="text">Details</span>
-                <span class="icon arrow-right"></span>
-              </a>
-              <div class="icons">
-                <a class="icon-btn" href="index-particle.html#">
-                  <i class="icon fa fa-instagram"></i>
-                </a>
-                <a class="icon-btn" href="index-particle.html#">
-                  <i class="icon fa fa-twitter"></i>
-                </a>
-              </div>
-            </div> -->
-          </div>
-        </div>
-      </div>
-
-      <div class="slide">
-        <div class="slide-wrapper">
-          <div class="item-wrapper">
-            <div class="illustr">
-              <center>
-                <h2>Why us ?</h2>
-              </center>
-              <center>Lorem ipsum dolor sit amet, consectetur adipiscing elit</center>
-              <img class="img img-block" src="img/items/img-sample1.jpg" alt="Image">
-            </div>
-            <!-- <div class="legend">
-              <a href="item.html#project_url">
-                <h3>Fire Cloud</h3>
-                <h4>Photography / App</h4>
-                <p>Lorem ipsum magicum dolor sit amet, consectetur adipiscing elit.
-                  Maecenas a sem ultrices neque vehicula fermentum a sit amet nulla.</p>
-              </a>
-              <a class="btn btn-transp-arrow btn-primary" href="item.html#project_url">
-                <span class="text">Details</span>
-                <span class="icon arrow-right"></span>
-              </a>
-              <div class="icons">
-                <a class="icon-btn" href="index-particle.html#">
-                  <i class="icon fa fa-instagram"></i>
-                </a>
-                <a class="icon-btn" href="index-particle.html#">
-                  <i class="icon fa fa-twitter"></i>
-                </a>
-              </div>
-            </div> -->
-          </div>
-        </div>
-      </div>
-
-      <div class="slide">
-        <div class="slide-wrapper">
-          <div class="item-wrapper">
-            <div class="illustr">
-              <center>
-                <h2>Why us ?</h2>
-              </center>
-              <center>Lorem ipsum dolor sit amet, consectetur adipiscing elit</center>
-              <img class="img img-block" src="img/items/img-sample1.jpg" alt="Image">
-            </div>
-            <!-- <div class="legend">
-              <a href="item.html#project_url">
-                <h3>Summer Scape</h3>
-                <h4>Photography</h4>
-                <p>Lorem ipsum magicum dolor sit amet, consectetur adipiscing elit.
-                  Maecenas a sem ultrices neque vehicula fermentum a sit amet nulla.</p>
-              </a>
-              <a class="btn btn-transp-arrow btn-primary" href="item.html#project_url">
-                <span class="text">Details</span>
-                <span class="icon arrow-right"></span>
-              </a>
-              <div class="icons">
-                <a class="icon-btn" href="index-particle.html#">
-                  <i class="icon fa fa-instagram"></i>
-                </a>
-                <a class="icon-btn" href="index-particle.html#">
-                  <i class="icon fa fa-twitter"></i>
-                </a>
-              </div>
-            </div> -->
-          </div>
-        </div>
-      </div>
-
-
-
-      <footer class="section-footer scrolldown">
-        <a class="down">
-          <span class="icon"></span>
-          <span class="txt">All Works</span>
-        </a>
-      </footer>
-
-    </div>
-    <!-- End of slider section -->
-
-    <!-- Begin of list projects section -->
-    <!-- <div class="section section-list-feature fp-auto-height-responsive " data-section="projects">
-
-      <div class="section-wrapper fullwidth with-margin">
-        <div class="section-content anim">
-          <div class="row">
-            <div class="col-12 col-lg-6 text-left">
-
-              <div class="title-desc">
-                <h2 class="display-4 display-title anim-1">Industries We Work With</h2>
-                <p class="anim-2">Lorem ipsum dolor sit amet, consectetur adipiscing elit
-                </p>
-              </div>
-            </div>
-          </div>
-
-          <div class="project-list grid-1 grid-md-2 grid-lg-3 anim-list">
-
-            <div class="item media media-project">
-              <div class="media-img">
-                <img class="" src="https://via.placeholder.com/700" alt="An image">
-              </div>
-              <div class="media-body">
-                <a href="item.html#project_url">
-                  <h4>Lorem</h4>
-                  <h3>Lorem Ipsium</h3>
-                  <p class="price">$0</p>
-                </a>
-              </div>
-              <div class="media-footer">
-                <a class="btn btn-transp-arrow btn-primary" href="item.html">
-                  <span class="text">Details</span>
-                  <span class="icon arrow-right"></span>
-                </a>
-              </div>
-            </div>
-
-            <div class="item media media-project">
-              <div class="media-img">
-                <img class="" src="https://via.placeholder.com/700" alt="An image">
-              </div>
-              <div class="media-body">
-                <a href="item.html#project_url">
-                  <h4>Lorem</h4>
-                  <h3>Lorem Ipsium</h3>
-                  <p class="price">$0</p>
-                </a>
-              </div>
-              <div class="media-footer">
-                <a class="btn btn-transp-arrow btn-primary" href="item.html">
-                  <span class="text">Details</span>
-                  <span class="icon arrow-right"></span>
-                </a>
-              </div>
-            </div>
-
-            <div class="item media media-project">
-              <div class="media-img">
-                <img class="" src="https://via.placeholder.com/700" alt="An image">
-              </div>
-              <div class="media-body">
-                <a href="item.html#project_url">
-                  <h4>Lorem</h4>
-                  <h3>Lorem Ipsium</h3>
-                  <p class="price">$0</p>
-                </a>
-              </div>
-              <div class="media-footer">
-                <a class="btn btn-transp-arrow btn-primary" href="item.html">
-                  <span class="text">Details</span>
-                  <span class="icon arrow-right"></span>
-                </a>
-              </div>
-            </div>
-
-            <div class="item media media-project">
-              <div class="media-img">
-                <img class="" src="https://via.placeholder.com/700" alt="An image">
-              </div>
-              <div class="media-body">
-                <a href="item.html#project_url">
-                  <h4>E-learning</h4>
-                  <h3>Coding Course</h3>
-                  <p class="price">$0</p>
-                </a>
-              </div>
-              <div class="media-footer">
-                <a class="btn btn-transp-arrow btn-primary" href="item.html">
-                  <span class="text">Details</span>
-                  <span class="icon arrow-right"></span>
-                </a>
-              </div>
-            </div>
-
-            <div class="item media media-project">
-              <div class="media-img">
-                <img class="" src="https://via.placeholder.com/700" alt="An image">
-              </div>
-              <div class="media-body">
-                <a href="item.html#project_url">
-                  <h4>Lorem</h4>
-                  <h3>Lorem Ipsium</h3>
-                  <p class="price">$0</p>
-                </a>
-              </div>
-              <div class="media-footer">
-                <a class="btn btn-transp-arrow btn-primary" href="item.html">
-                  <span class="text">Details</span>
-                  <span class="icon arrow-right"></span>
-                </a>
-              </div>
-            </div>
-
-            <div class="item media media-project">
-              <div class="media-img">
-                <img class="" src="https://via.placeholder.com/700" alt="An image">
-              </div>
-              <div class="media-body">
-                <a href="item.html#project_url">
-                  <h4>Lorem</h4>
-                  <h3>Lorem Ipsium</h3>
-                  <p class="price">$0</p>
-                </a>
-              </div>
-              <div class="media-footer">
-                <a class="btn btn-transp-arrow btn-primary" href="item.html">
-                  <span class="text">Details</span>
-                  <span class="icon arrow-right"></span>
-                </a>
-              </div>
-            </div>
-
-          </div>
-
-        </div>
-
-
-
-
-
-        <footer class="section-footer scrolldown">
-          <a class="down">
-            <span class="icon"></span>
-            <span class="txt">Services</span>
-          </a>
-        </footer>
-      </div>
-    </div> -->
     <!-- End of list projects section -->
 
     <!-- Begin of list feature section -->
@@ -1167,13 +800,15 @@ http://miradontsoa.com
 
 
     <!-- Begin of list products section -->
-    <!-- <div class="section section-grid fp-auto-height-responsive section-centered" data-section="products">
+    <div class="section section-grid fp-auto-height-responsive " data-section="products">
+      <!-- Begin of section wrapper -->
       <div class="section-wrapper fullwidth with-margin">
 
 
         <div class="section-content mb-3">
           <div class="row">
             <div class="col-12 col-lg-6 text-left">
+              <!-- title and description -->
               <div class="title-desc">
                 <h2 class="display-4 display-title anim-1">Products</h2>
                 <p class="anim-2">List of products. Lorem ipsum magicum dolor sit amet, consectetur
@@ -1186,8 +821,9 @@ http://miradontsoa.com
         </div>
 
 
+        <!-- Begin of item list -->
         <div class="section-content row justify-content-between">
-
+          <!-- item  -->
           <div class="col-12 col-sm-6 col-lg-4 center-vh">
             <div class="section-content anim translateUp">
               <div class="images text-center">
@@ -1202,17 +838,15 @@ http://miradontsoa.com
                   </div>
                   <div class="legend text-center decor">
                     <h3 class="decor">
-                      <strong>iTap Advert</strong>
+                      <strong>Fish Game</strong>
                     </h3>
-                    <p>For Video Hotspots &
-
-                      Branched Video.</p>
+                    <p>This is just a placeholder text.</p>
                   </div>
                 </div>
               </div>
             </div>
           </div>
-
+          <!-- item  -->
           <div class="col-12 col-sm-6 col-lg-4 center-vh">
             <div class="section-content anim">
               <div class="images text-center">
@@ -1227,16 +861,15 @@ http://miradontsoa.com
                   </div>
                   <div class="legend text-center decor">
                     <h3 class="display-normal">
-                      <strong>iTap Streamshop </strong>
+                      <strong>Bird App</strong>
                     </h3>
-                    <p>For cloud based loopable videos with
-                      an Interactive Shoppable sidebar.</p>
+                    <p>This is just a placeholder text.</p>
                   </div>
                 </div>
               </div>
             </div>
           </div>
-
+          <!-- item  -->
           <div class="col-12 col-sm-6 col-lg-4 center-vh">
             <div class="section-content anim translateDown">
               <div class="images text-center">
@@ -1251,16 +884,15 @@ http://miradontsoa.com
                   </div>
                   <div class="legend text-center decor">
                     <h3 class="display-normal">
-                      <strong>iTap Influence</strong>
+                      <strong>Photo App</strong>
                     </h3>
-                    <p>For tunrning Influencer
-                      driven content shoppable.</p>
+                    <p>This is just a placeholder text.</p>
                   </div>
                 </div>
               </div>
             </div>
           </div>
-
+          <!-- item  -->
           <div class="col-12 col-sm-6 col-lg-4 center-vh">
             <div class="section-content anim translateUp">
               <div class="images text-center">
@@ -1275,16 +907,15 @@ http://miradontsoa.com
                   </div>
                   <div class="legend text-center decor">
                     <h3 class="display-normal">
-                      <strong>iTap OTT</strong>
+                      <strong>Painting</strong>
                     </h3>
-                    <p>Specialized interactive OTT
-                      content creation.</p>
+                    <p>This is just a placeholder text.</p>
                   </div>
                 </div>
               </div>
             </div>
           </div>
-
+          <!-- item  -->
           <div class="col-12 col-sm-6 col-lg-4 center-vh">
             <div class="section-content anim">
               <div class="images text-center">
@@ -1299,16 +930,15 @@ http://miradontsoa.com
                   </div>
                   <div class="legend text-center decor">
                     <h3 class="display-normal">
-                      <strong>iTap Live</strong>
+                      <strong>Software</strong>
                     </h3>
-                    <p>Turn any Real Time Streaming
-                      event interactively shoppable.</p>
+                    <p>This is just a placeholder text.</p>
                   </div>
                 </div>
               </div>
             </div>
           </div>
-
+          <!-- item  -->
           <div class="col-12 col-sm-6 col-lg-4 center-vh">
             <div class="section-content anim translateDown">
               <div class="images text-center">
@@ -1332,11 +962,13 @@ http://miradontsoa.com
             </div>
           </div>
         </div>
-
+        <!-- End of item list -->
       </div>
-
-    </div> -->
+      <!-- End of section wrapper -->
+    </div>
     <!-- End of list products section -->
+
+
 
 
     <!-- Begin of register/login/signin section -->
@@ -1348,15 +980,15 @@ http://miradontsoa.com
       <!-- Begin of section wrapper -->
       <div class="section-wrapper fullwidth with-margin">
 
-
+        <!-- content -->
         <div class="section-content anim">
 
           <div class="row">
 
             <div class="col-12 col-md-12 col-lg-5">
-
-              <form class="send_email_form form-container form-container-transparent form-container-white" method="post"
-                action="ajaxserver/serverfile.php">
+              <!-- Registration form container-->
+              <form class="send_email_form form-container form-container-transparent form-container-white"
+              method="post" action="ajaxserver/serverfile.php">
                 <div class="form-desc">
                   <h2 class="display-4 display-title  anim-2">Subscribe</h2>
                   <p class="invite  anim-3">Don't miss any new opportunity, Hurry up! register now :</p>
@@ -1365,17 +997,16 @@ http://miradontsoa.com
                   <div class="form-group form-success-gone">
                     <label for="reg-email">Email</label>
                     <input id="reg-email" name="email" class="form-control-line form-control-white" type="email"
-                      required placeholder="your@email.address" data-validation-type="email" />
+                    required placeholder="your@email.address" data-validation-type="email"
+                    />
                   </div>
                   <div class="form-group mb-0">
                     <div>
-                      <p class="email-ok invisible form-text-feedback form-success-visible">Your email has been
-                        registred, thank you.</p>
+                      <p class="email-ok invisible form-text-feedback form-success-visible">Your email has been registred, thank you.</p>
                     </div>
 
                     <div class="btns-action anim-3">
-                      <button id="submit-email" name="submit_email"
-                        class="btn btn-circicon btn-primary form-success-gone">
+                      <button id="submit-email" name="submit_email" class="btn btn-circicon btn-primary form-success-gone">
                         <span class="icon">
                           <i class="ion ion-checkmark"></i>
                         </span>
@@ -1396,19 +1027,19 @@ http://miradontsoa.com
             <p>Stay updated. Follow us on social media</p>
           </div>
           <div class="icons icons-margin">
-            <a class="icon-btn" href="index-particle.html#">
+            <a class="icon-btn" href="index.html#">
               <i class="icon fa fa-instagram"></i>
             </a>
-            <a class="icon-btn" href="index-particle.html#">
+            <a class="icon-btn" href="index.html#">
               <i class="icon fa fa-youtube"></i>
             </a>
-            <a class="icon-btn" href="index-particle.html#">
+            <a class="icon-btn" href="index.html#">
               <i class="icon fa fa-facebook"></i>
             </a>
-            <a class="icon-btn" href="index-particle.html#">
+            <a class="icon-btn" href="index.html#">
               <i class="icon fa fa-pinterest"></i>
             </a>
-            <a class="icon-btn" href="index-particle.html#">
+            <a class="icon-btn" href="index.html#">
               <i class="icon fa fa-twitter"></i>
             </a>
           </div>
@@ -1444,7 +1075,9 @@ http://miradontsoa.com
               <div class="title-desc">
                 <div class="anim-2">
                   <h2 class="display-4 display-title">Contact</h2>
-                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Inventore nesciunt aperiam.</p>
+                  <p>For questions about our company and products found on our stores.
+                    Cras vitae neque molestie, rhoncus ipsum sit amet, lobortis dui.
+                    Fusce in urna sem.</p>
                 </div>
                 <div class="address-container anim-3">
 
@@ -1452,13 +1085,13 @@ http://miradontsoa.com
                     <div class="col-12 col-md-6 col-lg-6">
                       <h4>Contact</h4>
                       <p>Call: 01 234 567 89</p>
-                      <p>Email: demomail@gmail.com</p>
+                      <p>Email: ouremail@domain.com</p>
 
                       <div class="icons icons-margin">
-                        <a class="icon-btn" href="index-particle.html#">
+                        <a class="icon-btn" href="index.html#">
                           <i class="icon fa fa-instagram"></i>
                         </a>
-                        <a class="icon-btn" href="index-particle.html#">
+                        <a class="icon-btn" href="index.html#">
                           <i class="icon fa fa-twitter"></i>
                         </a>
                       </div>
@@ -1467,8 +1100,8 @@ http://miradontsoa.com
                       <h4>Address</h4>
                       <p>
                         Company address
-                        <br>Lorem Ipsium
-                        <br>lorem ipsium socd Isdskdun jcksksdn
+                        <br>12 Street Turning Place
+                        <br>South Est, Antartica
                       </p>
                     </div>
                   </div>
@@ -1491,28 +1124,27 @@ http://miradontsoa.com
             <div class="form-container form-container-card">
               <!-- Message form container -->
               <form class="send_message_form message form" method="post" action="ajaxserver/serverfile.php"
-                id="message_form">
+              id="message_form">
                 <div class="form-group name">
-                  <input id="mes-name" name="name" type="text" placeholder="Name"
-                    class="form-control form-control-outline thick form-success-clean" required>
+                  <input id="mes-name" name="name" type="text" placeholder="Name" class="form-control form-control-outline thick form-success-clean"
+                  required>
                 </div>
                 <div class="form-group email">
-                  <input id="mes-email" type="email" placeholder="Email" name="email"
-                    class="form-control form-control-outline thick form-success-clean" required>
+                  <input id="mes-email" type="email" placeholder="Email" name="email" class="form-control form-control-outline thick form-success-clean"
+                  required>
                 </div>
                 <div class="form-group no-border">
-                  <textarea id="mes-text" placeholder="Message ..." name="message"
-                    class="form-control form-control-outline thick form-success-clean" required></textarea>
+                  <textarea id="mes-text" placeholder="Message ..." name="message" class="form-control form-control-outline thick form-success-clean"
+                  required></textarea>
 
                   <div>
-                    <p class="message-ok invisible form-text-feedback form-success-visible">Your message has been sent,
-                      thank you.</p>
+                    <p class="message-ok invisible form-text-feedback form-success-visible">Your message has been sent, thank you.</p>
                   </div>
                 </div>
 
                 <div class="btns text-right">
                   <button id="submit-message" class="btn btn-outline-white btn-round btn-fullNot email_b"
-                    name="submit_message">
+                  name="submit_message">
                     <span class="txt">Send Now</span>
                     <span class="arrow-icon"></span>
                   </button>
@@ -1530,7 +1162,9 @@ http://miradontsoa.com
   <!-- END OF page main content -->
 
   <!-- BEGIN OF page footer -->
-  <!-- <footer id="site-footer" class="page-footer">
+  <footer id="site-footer" class="page-footer">
+
+    <!-- Right content -->
     <div class="footer-right">
       <p class="note">Casely by
         <a href="http://highhay.com">
@@ -1555,7 +1189,7 @@ http://miradontsoa.com
         </li>
       </ul>
     </div>
-  </footer> -->
+  </footer>
   <!-- END OF site footer -->
 
   <!-- scripts -->
@@ -1578,7 +1212,6 @@ http://miradontsoa.com
   <!-- Javascript main files -->
   <script src="js/main.js"></script>
 
-  <script src="js/particlejs/particles-init.js"></script>
 
 </body>
 
