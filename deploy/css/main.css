@@ -45,8 +45,8 @@ http://miradontsoa.com
 *{
   /* background-color: black; */
   font-family: 'Poppins', sans-serif;
+  font-weight: 900;
 }
-
 
 .text-black {
   color: #1d1d1d !important; }
@@ -5281,6 +5281,29 @@ p {
 
 .product-section #i-tap-live {
   margin-right: 422px;
+}
+
+.about-row {
+  display: flex;
+  width: 100%;
+  /* background-color: #025691; */
+  /* margin-right: 50px; */
+}
+
+.about-row .about-img {
+  margin-left: 70px;
+}
+
+.about-row .title-desc {
+  width: 500px;
+}
+
+#about-flex-data {
+  max-width: 100%;
+}
+
+.why-us-desc {
+  margin-bottom: 20px;
 }
 
 
