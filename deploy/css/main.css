@@ -5251,5 +5251,14 @@ p {
 /* phone */
 
 
+.product-section #i-tap-live {
+  margin-top: 40px;
+}
+
+.product-section p{
+  font-family: 'Ionicons';
+  font-size: 15px;
+  justify-content: left;
+}
 
 
