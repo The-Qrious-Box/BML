@@ -45,8 +45,8 @@ http://miradontsoa.com
 *{
   /* background-color: black; */
   font-family: 'Poppins', sans-serif;
+  /* font-weight: 900; */
 }
-
 
 .text-black {
   color: #1d1d1d !important; }
@@ -5260,19 +5260,22 @@ p {
   font-size: 15px;
   font-family: 'Poppins', sans-serif;
   text-align: left;
-  font-weight: bold;
+  font-weight: 900;
   margin-top: 20px;
 }
 
 .product-section #i-tap-advert-desc {
   /* margin-top: 50px; */
   margin-bottom: 44px;
+  /* font-weight: bolder; */
 }
 
 .product-section #i-tap-advert-desc, #i-tap-streamshop-desc, #i-tap-influence-desc, #i-tap-ott-desc, #i-tap-live-desc, #i-tap-home-desc {
-  font-size: 13px;
+  /* font-size: 13px; */
+  font-weight: bold;
+  font-size: 20px;
   font-family: 'Poppins', sans-serif;
-  font-weight: 900; 
+  /* font-weight: 900;  */
 }
 
 .product-section #i-tap-influence-desc {
@@ -5283,4 +5286,40 @@ p {
   margin-right: 422px;
 }
 
+.about-row {
+  display: flex;
+  width: 100%;
+  /* background-color: #025691; */
+  /* margin-right: 50px; */
+}
 
+.about-row .about-img {
+  margin-left: 70px;
+}
+
+.about-row .title-desc {
+  width: 500px;
+}
+
+#about-flex-data {
+  max-width: 100%;
+}
+
+.why-us-desc {
+  margin-bottom: 20px;
+}
+
+@media only screen and (max-width: 620px) {
+  .about-row {
+    display: inline-block;
+    justify-content: center;
+    width: 300px;
+  }
+}
+
+@media only screen and (max-width: 620px) {
+  .about-row .about-img {
+    margin-left: 0;
+    width: 300px;
+  }
+}
