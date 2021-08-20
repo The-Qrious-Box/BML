@@ -48,6 +48,19 @@ http://miradontsoa.com
   /* font-weight: 900; */
 }
 
+/* Video Contatiner */
+
+#videoDiv {
+  height: 500px;
+	max-width: 800px;
+	display: block;
+	position: relative;
+}
+#video {
+	width: 800px;
+	height: 500px;
+}
+
 .text-black {
   color: #1d1d1d !important; }
 
