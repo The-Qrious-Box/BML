@@ -5359,9 +5359,9 @@ p {
 
 #why-us-videoDiv {
   height: 500px;
-	max-width: 1200px;
   justify-content: center;
   display: flex;
+  margin-right: 0 !important;
 
 }
 #why-us-video {
