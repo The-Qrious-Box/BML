@@ -57,8 +57,8 @@ http://miradontsoa.com
 	position: relative;
 }
 #video {
-	width: 600px;
-	height: 300px;
+	width: 800px;
+	height: 500px;
 }
 .text-black {
   color: #1d1d1d !important; }
@@ -2462,7 +2462,7 @@ textarea {
       width: auto; }
       @media (min-width: 768px) {
         .page-header-alpha .navbar-brand .logo img {
-          height: 80px; } }
+          height: 150px; } }
     .page-header-alpha .navbar-brand .text {
       display: flex;
       justify-content: center;
@@ -5334,4 +5334,38 @@ p {
     margin-left: 0;
     width: 300px;
   }
+}
+
+
+/* #about-row {
+  display: inline-block;
+} */
+
+#about-row, #title-desc {
+  text-align: center;
+}
+
+#why-us-row {
+  justify-content: center;
+}
+
+#why-us-row h3 {
+  font-size: 25px;
+  font-weight: bold;
+}
+
+
+#why-us-videoDiv {
+  height: 500px;
+	max-width: 800px;
+	display: block;
+	position: relative;
+}
+#why-us-video {
+	width: 700px;
+	/* height: 500px; */
+}
+
+.why-us-desc {
+  text-align: center;
 }
