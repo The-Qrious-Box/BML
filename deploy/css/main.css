@@ -5318,7 +5318,9 @@ p {
 }
 
 .why-us-desc {
-  margin-bottom: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
 }
 
 @media only screen and (max-width: 620px) {
@@ -5357,13 +5359,16 @@ p {
 
 #why-us-videoDiv {
   height: 500px;
-	max-width: 800px;
-	display: block;
-	position: relative;
+	max-width: 1200px;
+  justify-content: center;
+  display: flex;
+
 }
 #why-us-video {
-	width: 700px;
-	/* height: 500px; */
+    width: 95%;
+    min-width: 300px;
+    max-width: 1920px;
+    object-fit: cover;
 }
 
 .why-us-desc {
