@@ -5320,7 +5320,8 @@ p {
 .why-us-desc {
   display: flex;
   flex-direction: column;
-  justify-content: space-evenly;
+  justify-content: center;
+  width: 35%;
 }
 
 @media only screen and (max-width: 620px) {
@@ -5352,7 +5353,7 @@ p {
 }
 
 #why-us-row h3 {
-  font-size: 25px;
+  font-size: 50px;
   font-weight: bold;
 }
 
@@ -5372,5 +5373,25 @@ p {
 }
 
 .why-us-desc {
-  text-align: center;
+  text-align: left;
+}
+
+.why-us-image {
+  display: flex;
+  justify-content: center;
+}
+
+.why-us-image img {
+  max-width: 90%;
+  width: 700px;
+}
+
+#why-us-row1 {
+  font-size: 50px;
+  font-weight: bold;
+}
+
+#why-us-content {
+  display: flex;
+  justify-content: space-between;
 }
