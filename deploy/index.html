@@ -207,18 +207,17 @@ http://miradontsoa.com
 
           </div>
         </div>
-
+        <!-- 
         <div class="section-aside aside-bottom">
           <div class="text-right">
 
           </div>
-          <!-- Action button -->
           <div class="btns-action anim-3 text-right">
             <a class="btn btn-outline-white btn-round" href="index.html#contact">
               Contact
             </a>
           </div>
-        </div>
+        </div> -->
 
 
         <!-- Arrows scroll down/up -->
@@ -252,6 +251,15 @@ http://miradontsoa.com
                   <p class="anim-2">Concept utilizing | Storyboarding | Content Production | Post Production & Graphics
                     |
                     Hosting & Distribution | Analytics</p>
+                    <p></p>
+                  <div class="btns-action anim-3">
+                    <a class="btn btn-circicon btn-primary" href="index.html#whyus">
+                      <span class="icon">
+                        <i class="ion ion-chevron-down" id="icon-1"></i>
+                      </span>
+                      <span class="text">Why Us</span>
+                    </a>
+                  </div>
                 </div>
 
 
@@ -265,14 +273,7 @@ http://miradontsoa.com
               </div>
 
               <!-- Action button -->
-              <!-- <div class="btns-action anim-3">
-                <a class="btn btn-circicon btn-primary" href="index.html#products">
-                  <span class="icon">
-                    <i class="ion ion-chevron-down" id="icon-1"></i>
-                  </span>
-                  <span class="text">Products</span>
-                </a>
-              </div> -->
+
             </div>
 
           </div>
@@ -780,7 +781,7 @@ http://miradontsoa.com
 
 
 
-    <div class="section section-description fp-auto-height-responsive" data-section="about2">
+    <div class="section section-description fp-auto-height-responsive" data-section="whyus">
       <!-- Begin of section wrapper -->
       <div class="section-wrapper fullwidth with-margin">
         <!-- content -->
@@ -793,6 +794,14 @@ http://miradontsoa.com
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate optio, iste aut officiis eos
                   necessitatibus iusto </p>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate optio</p>
+                <div class="btns-action anim-3">
+                  <a class="btn btn-circicon btn-primary" href="index.html#contact">
+                    <span class="icon">
+                      <i class="ion ion-chevron-down" id="icon-1"></i>
+                    </span>
+                    <span class="text">Contact</span>
+                  </a>
+                </div>
               </div>
               <div class="why-us-image">
                 <img src="./img/BML.png" alt="no image" height="400px" width="500px">
@@ -935,6 +944,111 @@ http://miradontsoa.com
       <!-- End of section wrapper -->
     </div>
     <!-- End of description section -->
+
+
+
+
+    <!-- Begin of contact section -->
+    <div class="section section-contact fp-auto-height-responsive no-slide-arrows " data-section="contact">
+      <!-- section cover -->
+      <div class="section-cover-full bg-img" data-image-src="./img/sections/contact.png">
+      </div>
+
+      <!-- Begin of slide section wrapper -->
+      <div class="section-wrapper fullwidth  with-margin">
+        <!-- main content -->
+        <div class="row">
+          <div class="col-12 col-md-12 col-lg-6">
+            <!-- content -->
+            <div class="section-content anim text-left">
+              <!-- title and description -->
+              <div class="title-desc">
+                <div class="anim-2">
+                  <h2 class="display-4 display-title">Contact</h2>
+                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Inventore nesciunt aperiam.</p>
+                </div>
+                <div class="address-container anim-3">
+
+                  <div class="row">
+                    <div class="col-12 col-md-6 col-lg-6">
+                      <h4>Contact</h4>
+                      <p>Call: 01 234 567 89</p>
+                      <p>Email: demomail@gmail.com</p>
+
+                      <div class="icons icons-margin">
+                        <a class="icon-btn" href="index-particle.html#">
+                          <i class="icon fa fa-instagram"></i>
+                        </a>
+                        <a class="icon-btn" href="index-particle.html#">
+                          <i class="icon fa fa-twitter"></i>
+                        </a>
+                      </div>
+                    </div>
+                    <div class="col-12 col-md-6 col-lg-6">
+                      <h4>Address</h4>
+                      <p>
+                        Company address
+                        <br>Lorem Ipsium
+                        <br>lorem ipsium socd Isdskdun jcksksdn
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+            </div>
+          </div>
+
+          <div class="col-12 col-md-6">
+
+          </div>
+        </div>
+
+
+        <!-- aside content -->
+        <div class="section-aside aside-bottom anim small-relative">
+          <div class="message-form">
+            <h4>Write message</h4>
+            <div class="form-container form-container-card">
+              <!-- Message form container -->
+              <form class="send_message_form message form" method="post" action="ajaxserver/serverfile.php"
+                id="message_form">
+                <div class="form-group name">
+                  <input id="mes-name" name="name" type="text" placeholder="Name"
+                    class="form-control form-control-outline thick form-success-clean" required>
+                </div>
+                <div class="form-group email">
+                  <input id="mes-email" type="email" placeholder="Email" name="email"
+                    class="form-control form-control-outline thick form-success-clean" required>
+                </div>
+                <div class="form-group no-border">
+                  <textarea id="mes-text" placeholder="Message ..." name="message"
+                    class="form-control form-control-outline thick form-success-clean" required></textarea>
+
+                  <div>
+                    <p class="message-ok invisible form-text-feedback form-success-visible">Your message has been sent,
+                      thank you.</p>
+                  </div>
+                </div>
+
+                <div class="btns text-right">
+                  <button id="submit-message" class="btn btn-outline-white btn-round btn-fullNot email_b"
+                    name="submit_message">
+                    <span class="txt">Send Now</span>
+                    <span class="arrow-icon"></span>
+                  </button>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- End of slide section wrapper -->
+
+    </div>
+
+
+
 
 
 
@@ -1659,19 +1773,17 @@ http://miradontsoa.com
     <!-- End of register/login/signin section -->
 
     <!-- Begin of contact section -->
-    <div class="section section-contact fp-auto-height-responsive no-slide-arrows " data-section="contact">
-      <!-- section cover -->
+    <!-- <div class="section section-contact fp-auto-height-responsive no-slide-arrows " data-section="contact1">
       <div class="section-cover-full bg-img" data-image-src="./img/sections/contact.png">
       </div>
 
-      <!-- Begin of slide section wrapper -->
       <div class="section-wrapper fullwidth  with-margin">
-        <!-- main content -->
+
         <div class="row">
           <div class="col-12 col-md-12 col-lg-6">
-            <!-- content -->
+
             <div class="section-content anim text-left">
-              <!-- title and description -->
+ 
               <div class="title-desc">
                 <div class="anim-2">
                   <h2 class="display-4 display-title">Contact</h2>
@@ -1715,12 +1827,12 @@ http://miradontsoa.com
         </div>
 
 
-        <!-- aside content -->
+
         <div class="section-aside aside-bottom anim small-relative">
           <div class="message-form">
             <h4>Write message</h4>
             <div class="form-container form-container-card">
-              <!-- Message form container -->
+
               <form class="send_message_form message form" method="post" action="ajaxserver/serverfile.php"
                 id="message_form">
                 <div class="form-group name">
@@ -1753,9 +1865,9 @@ http://miradontsoa.com
           </div>
         </div>
       </div>
-      <!-- End of slide section wrapper -->
 
-    </div>
+
+    </div> -->
     <!-- End of contact section -->
 
 
