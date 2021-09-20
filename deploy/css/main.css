@@ -115,7 +115,8 @@ a {
   cursor: pointer; }
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: "Open Sans", "Proxima Nova ", "Segoe UI", "Opensans", "Roboto", "Helvetica", -apple-system, system-ui, BlinkMacSystemFont, sans-serif; }
+  /* font-family: "Open Sans", "Proxima Nova ", "Segoe UI", "Opensans", "Roboto", "Helvetica", -apple-system, system-ui, BlinkMacSystemFont, sans-serif;  */
+}
 
 h3, h4 {
   font-weight: normal; }
@@ -2462,7 +2463,8 @@ textarea {
       width: auto; }
       @media (min-width: 768px) {
         .page-header-alpha .navbar-brand .logo img {
-          height: 150px; } }
+          width: 200px;
+          height: auto; } }
     .page-header-alpha .navbar-brand .text {
       display: flex;
       justify-content: center;
