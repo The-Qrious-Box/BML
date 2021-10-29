@@ -48,18 +48,88 @@ http://miradontsoa.com
   /* font-weight: 900; */
 }
 
-/* Video Contatiner */
 
-#videoDiv {
-  height: 500px;
-	max-width: 800px;
-	display: block;
-	position: relative;
+
+/* Extra small devices (phones, 600px and down)
+@media only screen and (max-width: 600px) {
+
+} */
+
+/* Medium devices (landscape tablets, 768px and up)
+@media only screen and (min-width: 768px) {
+
+} */
+
+/* Extra large devices (large laptops and desktops, 1200px and up)
+@media only screen and (min-width: 1200px) {
+
+} */
+
+
+
+
+/* ######################## Video container - Landing ########################  */
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 400px) {
+  #videoDiv {
+    height: 100%;
+    /* max-width: 300px; */
+    display: block;
+    position: relative;
+  }
+  #video {
+    height: 240px;
+    /* width: 300px; */
+  }
 }
-#video {
-	width: 800px;
-	height: 500px;
+
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+  #videoDiv {
+    height: 500px;
+    max-width: 800px;
+    display: block;
+    position: relative;
+  }
+  #video {
+    width: 800px;
+    height: 500px;
+  }
 }
+
+/* ######################## Video container - About ########################  */
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 400px) {
+  #videoDiv-about {
+    height: 100%;
+    /* max-width: 300px; */
+    display: block;
+    position: relative;
+  }
+  #video-about {
+    height: 215px;
+    /* width: 300px; */
+  }
+}
+
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+  #videoDiv-about {
+    height: 500px;
+    max-width: 800px;
+    display: block;
+    position: relative;
+  }
+  #video-about {
+    width: 800px;
+    height: 500px;
+  }
+}
+
 .text-black {
   color: #1d1d1d !important; }
 
@@ -78,12 +148,16 @@ http://miradontsoa.com
 /* 0. Base style */
 /* 0.1 Initializer */
 /* 0.0 Tag/Classes Initailization */
-audio,
-canvas,
-img,
-svg,
-video {
-  vertical-align: middle; }
+audio, canvas, img, svg, video {
+  vertical-align: middle; 
+}
+
+
+
+
+
+
+
 
 .browsehappy {
   margin: 0.2em 0;
@@ -5308,11 +5382,19 @@ p {
 }
 
 .about-row .about-img {
-  margin-left: 70px;
+  /* margin-left: 70px; */
 }
 
-.about-row .title-desc {
-  width: 500px;
+@media only screen and (min-width: 400px) {
+  .about-row .title-desc {
+    width: 390px;
+  }
+}
+
+@media only screen and (min-width: 992px) {
+  .about-row .title-desc {
+    width: 480px;
+  }
 }
 
 #about-flex-data {
@@ -5323,7 +5405,7 @@ p {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  width: 35%;
+  /* width: 35%; */
 }
 
 @media only screen and (max-width: 620px) {
