@@ -450,5 +450,30 @@ $(document).on('ready', function () {
 		// shadowBall.posy.value = e.pageY;
 	});
 
+	// Video Autoplay
+
+	var video = document.getElementById("video-about");
+	var btn = document.getElementById("unmute");
+	
+	function play(){
+		console.log("Video Play");
+		video.play();
+	}
+
+	btn.addEventListener("click", unmute, false);
+
+	function unmute(){
+		console.log("clicked");
+		video.muted = !video.muted;
+	}
+
+	play();
+
+
+
+
+
+
+
 });
 
