@@ -461,13 +461,15 @@ $(document).on('ready', function () {
 	}
 
 	btn.addEventListener("click", unmute, false);
-
 	function unmute(){
 		console.log("clicked");
 		video.muted = !video.muted;
 	}
 
-	play();
+	//Mute Toggle		
+	$(document).on('click', '.toggle-sound', function(e) {
+		$(this).toggleClass('sound-mute');
+	});
 
 
 
