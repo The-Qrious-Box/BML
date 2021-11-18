@@ -155,7 +155,7 @@ http://miradontsoa.com
     top: 80%;
   }
   .toggle-sound {
-    position: fixed;
+    position: relative;
     /* top: calc(50% - 25.5px); */
     /* left: calc(50% - 25.5px); */
     background-color: #ea3323;
