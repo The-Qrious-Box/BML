@@ -452,13 +452,18 @@ $(document).on('ready', function () {
 
 	// Video Autoplay
 
+	var videoDiv_about = document.getElementById("videoDiv-about");
 	var video = document.getElementById("video-about");
 	var btn = document.getElementById("unmute");
+
+	var click1 = document.getElementById("product-1");
+	var click2 = document.getElementById("product-2");
+	var click3 = document.getElementById("product-3");
+	var product_video_1 = document.getElementById("product-video-1");
+	var product_video_2 = document.getElementById("product-video-2");
+	var product_video_3 = document.getElementById("product-video-3");
+
 	
-	function play(){
-		console.log("Video Play");
-		video.play();
-	}
 
 	btn.addEventListener("click", unmute, false);
 	function unmute(){
@@ -471,9 +476,32 @@ $(document).on('ready', function () {
 		$(this).toggleClass('sound-mute');
 	});
 
+	$('video-about').each(function(){
+		if ($(this).is(":in-viewport")) {
+			$(this)[0].play();
+		} else {
+			$(this)[0].pause();
+		}
+	})
 
-
-
+	click1.addEventListener("click", function(){
+		console.log("Video Play");
+		product_video_1.play();
+	}, false);
+	
+	click2.addEventListener("click", function(){
+		console.log("Video Play");
+		product_video_2.play();
+	}, false);
+	
+	click3.addEventListener("click", function(){
+		console.log("Video Play");
+		product_video_3.play();
+	}, false);
+	
+	videoDiv_about.addEventListener("click", function(){
+		video.play();
+	});
 
 
 

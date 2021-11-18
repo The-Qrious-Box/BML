@@ -113,6 +113,22 @@ http://miradontsoa.com
     height: 215px;
     /* width: 300px; */
   }
+  .toggle-sound {
+    position: relative;
+    top: 10px;
+    background-color: #ea3323;
+    width: 55px;
+    height: 55px;
+      line-height: 55px;
+      text-align: center;
+      color: #fff;
+    border-radius: 50%;
+    cursor: pointer;
+    z-index: 99;
+    animation: pulse 1.25s infinite cubic-bezier(0.66, 0, 0, 1);
+    box-shadow: 0 0 0 0 #ea3323;
+  }
+ 
 }
 
 
@@ -137,6 +153,22 @@ http://miradontsoa.com
     padding: 8px 16px;
     position: absolute;
     top: 80%;
+  }
+  .toggle-sound {
+    position: fixed;
+    /* top: calc(50% - 25.5px); */
+    /* left: calc(50% - 25.5px); */
+    background-color: #ea3323;
+    width: 55px;
+    height: 55px;
+      line-height: 55px;
+      text-align: center;
+      color: #fff;
+    border-radius: 50%;
+    cursor: pointer;
+    z-index: 99;
+    animation: pulse 1.25s infinite cubic-bezier(0.66, 0, 0, 1);
+    box-shadow: 0 0 0 0 #ea3323;
   }
 }
 
@@ -168,22 +200,7 @@ audio, canvas, img, svg, video {
 
 /* ############################# Video Mute/Unmute ########################### */
 
-.toggle-sound {
-  position: fixed;
-  /* top: calc(50% - 25.5px); */
-	/* left: calc(50% - 25.5px); */
-	background-color: #ea3323;
-	width: 55px;
-	height: 55px;
-    line-height: 55px;
-    text-align: center;
-    color: #fff;
-	border-radius: 50%;
-	cursor: pointer;
-	z-index: 99;
-	animation: pulse 1.25s infinite cubic-bezier(0.66, 0, 0, 1);
-	box-shadow: 0 0 0 0 #ea3323;
-}
+
 .toggle-sound.sound-mute {
 	box-shadow: none;
 }
@@ -263,13 +280,13 @@ left: 5px;
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
 @media only screen and (min-width: 400px) {
-  #product-videoDiv {
+  .product-videoDiv {
     height: 100%;
     /* max-width: 300px; */
     display: block;
     position: relative;
   }
-  #product-video {
+  .product-video {
     height: auto;
     width: 350px;
   }
@@ -278,13 +295,13 @@ left: 5px;
 
 /* Large devices (laptops/desktops, 992px and up) */
 @media only screen and (min-width: 992px) {
-  #product-videoDiv {
+  .product-videoDiv {
     max-width: 450px;
     height: 300px;
     display: block;
     position: relative;
   }
-  #product-video {
+  .product-video {
     padding: 5px;
     width: 450px;
     height: 300px;
