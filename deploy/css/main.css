@@ -259,6 +259,38 @@ left: 5px;
 
 
 
+/* ######################## Video container - Products ########################  */
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 400px) {
+  #product-videoDiv {
+    height: 100%;
+    /* max-width: 300px; */
+    display: block;
+    position: relative;
+  }
+  #product-video {
+    height: auto;
+    width: 350px;
+  }
+}
+
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+  #product-videoDiv {
+    max-width: 450px;
+    height: 300px;
+    display: block;
+    position: relative;
+  }
+  #product-video {
+    padding: 5px;
+    width: 450px;
+    height: 300px;
+  }
+}
+
 
 
 .browsehappy {
